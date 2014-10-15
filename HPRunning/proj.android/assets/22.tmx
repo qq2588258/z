@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass3" tilewidth="32" tileheight="32">
+  <image source="grass3.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="11" name="light" tilewidth="32" tileheight="32">
+  <image source="light.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="19" name="tree3" tilewidth="32" tileheight="32">
+  <image source="tree3.png" width="448" height="224"/>
+ </tileset>
+ <tileset firstgid="117" name="ground3" tilewidth="32" tileheight="32">
+  <image source="ground3.png" width="544" height="192"/>
+  <tile id="1">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="rootX" value="0"/>
+    <property name="rootY" value="-1"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="rootX" value="0"/>
+    <property name="rootY" value="-1"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="rootX" value="0"/>
+    <property name="rootY" value="-1"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="rootX" value="0"/>
+    <property name="rootY" value="-1"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="rootX" value="0"/>
+    <property name="rootY" value="-1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="219" name="coin" tilewidth="32" tileheight="32">
+  <image source="coin.png" width="96" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="jewelType" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="jewelType" value="2"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="jewelType" value="3"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="grass" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEANYgJiVRD2MQMwExMxE6ucEYi4S7WADYnYg5iBT/ygYngAAwHAAVA==
+  </data>
+ </layer>
+ <layer name="tree" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzbdSQmEURlHeAURaEy0YGgMKIuYMigmRaBZE3n9Y9a3+AhuGb2ZVZ+bsWGy6/1qcBDMkmSU15sYc8yywyBLpMTcyZFlmhVXWWGeDTbYC/hTZo8R+5JZjmx3yFNjlgEOOOA5oXHFNmUrkdsIpZ5xzwSU33FLlLqBR54UGzcjtngceeaLGMy3adOgGNL75oUc/cnvljXc++OSLXwb8MQxoTDfZGwFNEBbG
+  </data>
+ </layer>
+ <layer name="root" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzty7tSwmAQhuHcNQhogDSIgpwaDyBR03AQjJBGETQqDSBKFC7Ht9i/2Rugyc48M1t8r2XFF198+7wEkjhASv1pZHCII9jIIoc8HNmbxlatI30BxyjiRP2nKKGMM1RQRQ11NGRvmopqG9Kf4wKXuFJ/Ey1cow0XN7jFHTzZm8ZVrSd9B1300Ff/PQYY4gE+HjHCGIHsTeOrNpD+Cc+Y4EX9U8zwijeEeMcHPjGXvWlC1c6lX2CJFb7Uv8Y3frBBhF/8YYud7E0TqXYn/T+dZWF+
+  </data>
+ </layer>
+ <layer name="light" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4C2gBuIeWhsBy8Q89HYDn4gFqCxHYJALERjO0bByAAAS5MAdQ==
+  </data>
+ </layer>
+ <layer name="jewel" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgx3cpkCMGHAXjSZFjBRwhwKxUTAKRgFpAAC+KgpU
+  </data>
+ </layer>
+ <objectgroup name="enemy" width="25" height="15">
+  <object x="243" y="320">
+   <properties>
+    <property name="enemytype" value="1"/>
+   </properties>
+  </object>
+  <object x="643" y="319">
+   <properties>
+    <property name="enemytype" value="3"/>
+   </properties>
+  </object>
+  <object x="704" y="320">
+   <properties>
+    <property name="enemytype" value="2"/>
+   </properties>
+  </object>
+  <object x="575" y="321">
+   <properties>
+    <property name="enemytype" value="2"/>
+   </properties>
+  </object>
+  <object x="310" y="319">
+   <properties>
+    <property name="enemytype" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

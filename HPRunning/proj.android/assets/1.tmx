@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass3" tilewidth="32" tileheight="32">
+  <image source="grass3.png" width="160" height="64"/>
+ </tileset>
+ <tileset firstgid="11" name="light" tilewidth="32" tileheight="32">
+  <image source="light.png" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="19" name="tree3" tilewidth="32" tileheight="32">
+  <image source="tree3.png" width="448" height="224"/>
+ </tileset>
+ <tileset firstgid="117" name="ground3" tilewidth="32" tileheight="32">
+  <image source="ground3.png" width="544" height="192"/>
+  <tile id="1">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="rootX" value="-1"/>
+    <property name="rootY" value="0"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="rootX" value="0"/>
+    <property name="rootY" value="-1"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="rootX" value="0"/>
+    <property name="rootY" value="-1"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="rootX" value="0"/>
+    <property name="rootY" value="-1"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="rootX" value="0"/>
+    <property name="rootY" value="-1"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="rootX" value="0"/>
+    <property name="rootY" value="-1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="219" name="coin" tilewidth="32" tileheight="32">
+  <image source="coin.png" width="96" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="jewelType" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="jewelType" value="2"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="jewelType" value="3"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="grass" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0AIwAjETEDPT0A42IGYHYg4a2jEKhiYAAECsABw=
+  </data>
+ </layer>
+ <layer name="tree" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzUVOA1AARdHuAS0QaCkevLi7Q3F3d99/OBv4P6HT9iVn+HITieL+sxJKKaOcCipJUkU1NdRSRyqPRpp6MjTQSBPNtNBKG+100JlHo4tueuglSx/9DDDIUOA7zAijjEUa40wwyRTTzDDLHPMsBL6LLLHMSqSxyhrrbJBjky222WE38N1jnwMOI40jjjnhlDPOueCSK64D3xtuueM+0njgkSeeeeGVN9754DPw/eKbH34jjeIKa3+qexmQ
+  </data>
+ </layer>
+ <layer name="root" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztyjdWQlEARVFmbRbFRlEJaiMIYmokiqExgGJoTBiA4biLN4FX2fy71q7uSaWSJUv2n5timhlmmWOeBRZJs8Qymch2JfyrrJFlnQ02yZGnQJEttiPbnfDvUqLMHhWq7FPjgEOOOI5sT8J/Sp0GTVq06XBGl3MuuIxsr8J/zQ233NGjzz0PDHjkiefI9iX8r7zxzgefDPnimx9+GTGObCfh/wNS0GIg
+  </data>
+ </layer>
+ <layer name="light" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DgADcQ89DYDl4g5qOxHfxALEBjOwSBWIjGdoyC4QMAPuMAdQ==
+  </data>
+ </layer>
+ <layer name="jewel" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgc4DaNzb+DRtPC/LtQ9l0a2INs3m0c4tSyh1r+gJmFzQx88YFPHzluGAWjYCQCADeyE8k=
+  </data>
+ </layer>
+</map>
